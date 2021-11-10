@@ -1,0 +1,15 @@
+.write-input { 
+        font-size: 20px;
+        border: none;
+        padding: 20px;
+        width: 50%;
+}
+
+.write-text {
+    font-family: inherit;
+    font-size: 20px;
+  }
+
+  .PopUp  { 
+    overflow-x: scroll;
+  }

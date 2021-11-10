@@ -1,0 +1,69 @@
+.settings {
+    display: flex;
+  }
+  
+  .settingsWrapper {
+    flex: 6;
+    padding: 20px;
+  }
+  
+  .settingsTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .settingsTitleUpdate {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+  }
+  
+  .settingsForm {
+    max-width:500px;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .settingsForm label { 
+    color:#fff;
+  }
+  .settingsPPButton:focus {
+    outline-style: none;
+  }
+  
+  .settingsForm > label {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  
+  
+  .settingsForm > input {
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding:1rem;
+  }
+  
+  .settingsSubmitButton {
+    align-self: center;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #ea4c88;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .settingsSubmitButton:hover {
+    opacity:0.8;
+  }

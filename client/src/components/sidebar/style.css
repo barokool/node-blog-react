@@ -1,0 +1,15 @@
+.side-bar { 
+    padding-top: 30px;
+    flex: 3;
+    color:#fff;
+}
+
+
+.side-bar2{
+    position: sticky;
+    top: 50px;
+}
+
+.side-bar p { 
+    font-weight: 700;
+}
